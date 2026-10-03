@@ -1,6 +1,6 @@
 # zjuam-auth
 
-[![CI](https://github.com/<owner>/<repo>/actions/workflows/ci.yml/badge.svg)](https://github.com/<owner>/<repo>/actions/workflows/ci.yml)
+[![CI](https://github.com/Cillo-x/zjuam-auth/actions/workflows/ci.yml/badge.svg)](https://github.com/Cillo-x/zjuam-auth/actions/workflows/ci.yml)
 
 零依赖的 Node.js ZJUam CAS 登录与 OAuth2 授权码回调客户端。
 
@@ -9,16 +9,14 @@
 - 获取并校验 OAuth2 授权码回调。
 - 手动跟随重定向，限制 Cookie 白名单与中间跳转 host。
 
-它不提供校园业务 API，不负责 code→token 换取，也不支持浏览器环境。
-
 ## 安装
 
 尚未发布到 npm。请从 Git URL 或本地路径安装：
 
 ```bash
-npm install <repo-url>
+npm install github:Cillo-x/zjuam-auth
 # 或
-npm install /path/to/zjuam-auth-node
+npm install /path/to/zjuam-auth
 ```
 
 要求 Node.js >= 22。
@@ -179,6 +177,7 @@ npm run typecheck
 `typescript` 仅为开发依赖，用于校验类型声明；运行时零依赖。
 
 ## License
+
 本项目以 GPL-3.0-or-later 授权，全文见 LICENSE。
 
 协议实现最初移植自 Celechron（https://github.com/Celechron/Celechron，GPL-3.0）。

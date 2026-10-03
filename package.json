@@ -35,5 +35,11 @@
     "sso",
     "nodejs"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cillo-x/zjuam-auth.git"
+  },
+  "homepage": "https://github.com/Cillo-x/zjuam-auth#readme",
+  "bugs": "https://github.com/Cillo-x/zjuam-auth/issues",
   "license": "GPL-3.0-or-later"
 }
