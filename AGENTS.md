@@ -41,6 +41,9 @@ node --test --test-isolation=none "test/*.test.cjs"
 Tests must never hit real ZJUam. Do not add integration tests that require a
 real account unless they are explicitly opt-in and skipped by default.
 
+CI (`.github/workflows/ci.yml`) runs `npm test` and `npm run typecheck` on
+Ubuntu + Windows × Node 22 + 24; keep both green before finishing any task.
+
 ## Repo map
 
 `src/index.cjs` — public CommonJS exports.
@@ -133,6 +136,7 @@ Append-only; do not rewrite past entries.
   AGENTS.md are English.
 - Debug output only through `util.debuglog('zjuam')`.
 - Every `src/` file starts with a one-line responsibility comment.
+- Line endings are LF everywhere (enforced by .gitattributes / .editorconfig).
 
 ## Feature checklist
 

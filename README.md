@@ -1,5 +1,7 @@
 # zjuam-auth
 
+[![CI](https://github.com/<owner>/<repo>/actions/workflows/ci.yml/badge.svg)](https://github.com/<owner>/<repo>/actions/workflows/ci.yml)
+
 零依赖的 Node.js ZJUam CAS 登录与 OAuth2 授权码回调客户端。
 
 - 学号密码登录，缓存 SSO Cookie。
@@ -174,7 +176,11 @@ npm run typecheck
 
 测试使用本地 mock server，不需要真实 ZJUam 账号。
 
+`typescript` 仅为开发依赖，用于校验类型声明；运行时零依赖。
+
 ## License
 本项目以 GPL-3.0-or-later 授权，全文见 LICENSE。
+
 协议实现最初移植自 Celechron（https://github.com/Celechron/Celechron，GPL-3.0）。
+
 Copyright (C) 2026 Cillo-x
